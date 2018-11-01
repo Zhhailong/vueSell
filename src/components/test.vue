@@ -16,7 +16,7 @@
     },
     methods: {
       toHello: function () {
-        this.$router.replace({name: 'HelloWorld', params: {name: "小张"}})  //页面跳转还有push
+        this.$router.replace({name: 'HelloWorld', params: {name: "小张"}})  //页面跳转还有push,参数传递方式有三种
       }
     }
   };
